@@ -1,5 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: rgba(109, 109, 124, 0.5);
+  font-size: 18px;
+}
+img {
+  height: 40%;
+  width: 40%;
+  max-width: 300px;
+  margin-bottom: 50px;
+}
+h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h3 {
+  color: black;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+h4 {
+  color: black;
+  margin-top: 20px;
+}
+
 .center {
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
 
 }
