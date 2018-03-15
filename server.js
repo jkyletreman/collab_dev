@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.use(express.static('views'));
 
 app.use('/about', (req, res) => {
-  res.send('About');
+  res.render('about');
 });
 
 app.use('/contact', (req, res) => {
