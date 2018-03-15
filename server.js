@@ -11,7 +11,7 @@ app.use('/about', (req, res) => {
 });
 
 app.use('/contact', (req, res) => {
-  res.send('Contact');
+  res.render('contact');
 });
 
 app.use('/', (req, res) => {
