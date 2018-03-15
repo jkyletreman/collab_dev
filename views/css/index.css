@@ -2,13 +2,11 @@
   padding: 0;
   margin: 0;
 }
-
 html, body {
   height: 100%;
   background-color: rgba(109, 109, 124, 0.5);
   font-size: 18px;
 }
-
 .center {
   height: 10%;
   width: 20%;
@@ -19,7 +17,6 @@ html, body {
   right: 0;
   margin: auto auto;
 }
-
 .title {
   color: rgb(20, 20, 124);
   text-align: center;

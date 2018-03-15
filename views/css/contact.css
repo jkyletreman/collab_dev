@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  background-color: rgba(109, 109, 124, 0.5);
+  font-size: 18px;
+}
+p {
+  margin-top: 2%;
+}
+img {
+  height: 40%;
+  width: 40%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+h3 {
+  color: black;
+  text-decoration: underline;
+}
+section {
+  max-width: 60%;
+  margin: auto auto;
+  display: grid;
+  margin-top: 4%;
+  border: thick double rgba(22, 189, 212, 0.42);
+}
+.center {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+}
+.title {
+  color: rgb(20, 20, 124);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+}
+.avatar {
+  grid-row: 1;
+  grid-column: 1;
+}
+.description {
+  grid-row: 1;
+  grid-column: 2;
+  color: white;
+  margin: auto;
+}
